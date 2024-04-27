@@ -1,0 +1,874 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! How can I help you?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later"
+            ],
+            "responses": [
+                "Goodbye! Take care.",
+                "See you later!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "Appreciate it"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Glad I could help."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "employment_rights",
+            "patterns": [
+                "What are my rights as a marginalized employee?",
+                "Can my employer discriminate against me?",
+                "How to handle workplace harassment as a marginalized individual?"
+            ],
+            "responses": [
+                "Marginalized employees have rights protected by labor laws, including protection against discrimination and harassment. If you're experiencing workplace issues, it's essential to document incidents and seek guidance from HR or legal experts."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "housing_rights",
+            "patterns": [
+                "What are my rights as a marginalized tenant?",
+                "Can my landlord evict me unfairly as a marginalized individual?",
+                "How to address housing discrimination as a marginalized person?"
+            ],
+            "responses": [
+                "Marginalized tenants have rights concerning fair housing, eviction procedures, and living conditions. If you're facing housing issues or discrimination, you can seek assistance from tenant advocacy groups or legal aid organizations that specifically support marginalized communities."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "immigration_assistance",
+            "patterns": [
+                "How can I get legal assistance with immigration as a marginalized individual?",
+                "Do I qualify for immigration benefits as a marginalized person?",
+                "What are the steps to obtain legal immigration status as a marginalized community member?"
+            ],
+            "responses": [
+                "Navigating immigration laws can be complex, especially for marginalized individuals. It's advisable to consult with immigration lawyers or accredited representatives who have experience working with marginalized communities. They can assess your eligibility for immigration benefits and guide you through the process with cultural sensitivity and understanding."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "family_law",
+            "patterns": [
+                "Do I need legal help with family issues as a marginalized individual?",
+                "How to file for divorce or custody as a marginalized person?",
+                "Can you explain child support laws for marginalized communities?"
+            ],
+            "responses": [
+                "Family law matters such as divorce, custody, and child support can be challenging, especially for marginalized individuals. Legal assistance from professionals who understand the unique circumstances and challenges faced by marginalized communities is recommended to ensure fair treatment and representation."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "civil_rights",
+            "patterns": [
+                "What are my civil rights as a marginalized person?",
+                "How to respond to civil rights violations as a marginalized individual?",
+                "Where can I report civil rights abuses against marginalized communities?"
+            ],
+            "responses": [
+                "Civil rights protect marginalized individuals from discrimination and ensure equal treatment under the law. If you believe your civil rights have been violated, you can report incidents to relevant authorities, such as civil rights organizations or government agencies that focus on addressing issues affecting marginalized communities."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "legal_resources",
+            "patterns": [
+                "Where can I find legal resources specifically for marginalized communities?",
+                "Do you have a list of legal aid organizations that prioritize marginalized individuals?",
+                "How to access legal information online tailored to marginalized groups?"
+            ],
+            "responses": [
+                "Numerous resources are available to provide legal assistance and information to marginalized communities. Local legal aid offices, community centers, and online platforms that focus on serving marginalized groups offer valuable resources and support tailored to their unique needs and challenges."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "financial_rights",
+            "patterns": [
+                "What are my financial rights as a marginalized individual?",
+                "How to address financial exploitation or fraud as a marginalized person?",
+                "Can I get legal help with debt issues as a marginalized community member?"
+            ],
+            "responses": [
+                "Financial rights protect marginalized individuals from exploitation, fraud, and unfair debt practices. If you're facing financial challenges or legal issues related to debt, seeking advice from financial counselors or legal professionals who understand the specific struggles of marginalized communities is advisable."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "criminal_legal_aid",
+            "patterns": [
+                "How can I get legal aid for criminal charges as a marginalized person?",
+                "Do I qualify for a public defender as a marginalized individual?",
+                "What are my rights if I'm arrested as a member of a marginalized community?"
+            ],
+            "responses": [
+                "If you're facing criminal charges and unable to afford legal representation, you may be eligible for a public defender or legal aid services that specialize in serving marginalized communities. It's essential to understand your rights and seek legal assistance from professionals who are sensitive to the unique challenges faced by marginalized individuals in the criminal justice system."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "education_rights",
+            "patterns": [
+                "What are my rights as a marginalized student?",
+                "How to address discrimination in schools as a marginalized individual?",
+                "Can you explain special education laws for marginalized communities?"
+            ],
+            "responses": [
+                "Students from marginalized backgrounds have rights protected by education laws, including access to equal opportunities and protection against discrimination. If you encounter issues related to education rights or discrimination, seeking guidance from education advocates or legal professionals who are experienced in advocating for marginalized students is recommended."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "voting_rights",
+            "patterns": [
+                "How can I exercise my voting rights as a marginalized individual?",
+                "What should I do if I encounter voter suppression as a marginalized person?",
+                "Can you explain voting eligibility rules for marginalized communities?"
+            ],
+            "responses": [
+                "Voting rights are fundamental to democracy, and marginalized individuals have the right to vote free from discrimination or intimidation. If you encounter obstacles or discrimination while exercising your right to vote, you can report incidents to election officials, civil rights organizations, or legal experts who can assist you in protecting your voting rights and ensuring equal access to the electoral process."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "education_schemes",
+            "patterns": [
+                "What are the education schemes available in Tamil Nadu?",
+                "Tell me about education schemes in Tamil Nadu."
+            ],
+            "responses": [
+                "Tamil Nadu offers various education schemes to support students, including the Free Laptop Scheme, Mid-Day Meal Scheme, Scholarship Scheme for SC/ST Students, Skill Development Training Scheme, and Textbook Scheme."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "health_schemes",
+            "patterns": [
+                "What health schemes are provided in Tamil Nadu?",
+                "Explain the health schemes available in Tamil Nadu."
+            ],
+            "responses": [
+                "Tamil Nadu provides several health schemes such as Free Medical Camps Scheme, Maternity Benefit Scheme, Health Insurance Scheme for Farmers, Senior Citizen Health Scheme, and Sanitary Napkin Scheme."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "employment_schemes",
+            "patterns": [
+                "What employment schemes are implemented in Tamil Nadu?",
+                "Describe the employment schemes in Tamil Nadu."
+            ],
+            "responses": [
+                "Tamil Nadu offers employment schemes like Employment Training Scheme, Self-Employment Scheme for Women, Employment Guarantee Scheme, Apprenticeship Scheme, and Start-up Funding Scheme to promote job opportunities and entrepreneurship."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "housing_schemes",
+            "patterns": [
+                "What housing schemes are available in Tamil Nadu?",
+                "Tell me about the housing schemes in Tamil Nadu."
+            ],
+            "responses": [
+                "Housing schemes in Tamil Nadu include Affordable Housing Scheme, Slum Rehabilitation Scheme, Housing Loan Subsidy Scheme, Green Housing Scheme, and Rental Housing Scheme to provide housing options for different socio-economic groups."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "welfare_schemes",
+            "patterns": [
+                "What welfare schemes are provided in Tamil Nadu?",
+                "Explain the welfare schemes available in Tamil Nadu."
+            ],
+            "responses": [
+                "Tamil Nadu offers welfare schemes like Old Age Pension Scheme, Widow Pension Scheme, Disability Pension Scheme, Family Assistance Scheme, and Nutrition Supplement Scheme for Pregnant Women and Children to support marginalized individuals and families."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "education_schemes",
+            "patterns": [
+                "Describe education schemes",
+                "Show education schemes",
+                "What are the education schemes available?"
+            ],
+            "responses": [
+                "Here are the education schemes available in Tamil Nadu:"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "free_medical_camps_scheme",
+            "patterns": [
+                "Describe the Free Medical Camps Scheme",
+                "What is the eligibility criteria for the Free Medical Camps Scheme?"
+            ],
+            "responses": [
+                "The Free Medical Camps Scheme conducts free medical camps to provide healthcare services to underprivileged communities. Eligibility criteria include: No income criteria, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "employment_training_scheme",
+            "patterns": [
+                "Describe the Employment Training Scheme",
+                "What is the eligibility criteria for the Employment Training Scheme?"
+            ],
+            "responses": [
+                "The Employment Training Scheme provides training programs to enhance employability skills. Eligibility criteria include: Age: Unemployed youth within a certain age range, Educational: Minimum qualification criteria, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "apprenticeship_scheme",
+            "patterns": [
+                "Describe the Apprenticeship Scheme",
+                "What is the eligibility criteria for the Apprenticeship Scheme?"
+            ],
+            "responses": [
+                "The Apprenticeship Scheme offers apprenticeship opportunities to youth for skill development. Eligibility criteria include: Age: Youth within a certain age range, Educational: Minimum qualification criteria, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "startup_funding_scheme",
+            "patterns": [
+                "Describe the Start-up Funding Scheme",
+                "What is the eligibility criteria for the Start-up Funding Scheme?"
+            ],
+            "responses": [
+                "The Start-up Funding Scheme provides financial assistance to start-ups to promote entrepreneurship. Eligibility criteria include: Employment Status: Entrepreneur or founding member of a start-up, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "special_education_schemes",
+            "patterns": [
+                "Describe special education schemes",
+                "Show special education schemes",
+                "What are the special education schemes available?"
+            ],
+            "responses": [
+                "Here are some special education schemes available in Tamil Nadu:"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "special_scholarship_scheme_disabilities",
+            "patterns": [
+                "Describe the Special Scholarship Scheme for Disabilities",
+                "What is the eligibility criteria for the Special Scholarship Scheme for Disabilities?"
+            ],
+            "responses": [
+                "The Special Scholarship Scheme for Disabilities offers financial assistance to students with disabilities for higher education. Eligibility criteria include: Disability: Certified disability status, Age: Varies based on education level, Educational: Enrolled in a recognized institution, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "inclusive_education_scheme",
+            "patterns": [
+                "Describe the Inclusive Education Scheme",
+                "What is the eligibility criteria for the Inclusive Education Scheme?"
+            ],
+            "responses": [
+                "The Inclusive Education Scheme aims to provide equal educational opportunities for children with special needs. Eligibility criteria include: Disability: Certified disability status, Age: School-going children, Educational: Enrolled in a government or government-aided school, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "special_training_scheme_autistic_children",
+            "patterns": [
+                "Describe the Special Training Scheme for Autistic Children",
+                "What is the eligibility criteria for the Special Training Scheme for Autistic Children?"
+            ],
+            "responses": [
+                "The Special Training Scheme for Autistic Children offers specialized training and support for children with autism. Eligibility criteria include: Diagnosis: Certified diagnosis of autism spectrum disorder, Age: Children with autism, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "scholarship_scheme_minorities",
+            "patterns": [
+                "Describe the Scholarship Scheme for Minorities",
+                "What is the eligibility criteria for the Scholarship Scheme for Minorities?"
+            ],
+            "responses": [
+                "The Scholarship Scheme for Minorities provides financial assistance to minority community students for higher education. Eligibility criteria include: Income Level: Below a certain threshold specified for minorities, Age: Varies based on education level, Educational: Enrolled in a recognized institution, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "free_laptop_scheme",
+            "patterns": [
+                "Describe the Free Laptop Scheme",
+                "What is the eligibility criteria for the Free Laptop Scheme?"
+            ],
+            "responses": [
+                "The Free Laptop Scheme provides free laptops to students to aid in their education. Eligibility criteria include: Income Level: Below a certain threshold, Age: Typically for students in higher education, Educational: Enrolled in a recognized institution, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "mid_day_meal_scheme",
+            "patterns": [
+                "Describe the Mid-Day Meal Scheme",
+                "What is the eligibility criteria for the Mid-Day Meal Scheme?"
+            ],
+            "responses": [
+                "The Mid-Day Meal Scheme provides free nutritious meals to school children. Eligibility criteria include: Age: School-going children, Educational: Enrolled in a government or government-aided school, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "scholarship_scheme_sc_st_students",
+            "patterns": [
+                "Describe the Scholarship Scheme for SC/ST Students",
+                "What is the eligibility criteria for the Scholarship Scheme for SC/ST Students?"
+            ],
+            "responses": [
+                "The Scholarship Scheme for SC/ST Students offers financial assistance to students belonging to Scheduled Castes (SC) and Scheduled Tribes (ST) for higher education. Eligibility criteria include: Income Level: Below a certain threshold specified for SC/ST, Age: Varies based on education level, Educational: Enrolled in a recognized institution, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "textbook_scheme",
+            "patterns": [
+                "Describe the Textbook Scheme",
+                "What is the eligibility criteria for the Textbook Scheme?"
+            ],
+            "responses": [
+                "The Textbook Scheme provides free textbooks to school students. Eligibility criteria include: Age: School-going children, Educational: Enrolled in a government or government-aided school, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "education_schemes",
+            "patterns": [
+                "Describe education schemes",
+                "Show education schemes",
+                "What are the education schemes available?"
+            ],
+            "responses": [
+                "Here are the education schemes available in Tamil Nadu:"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "free_medical_camps_scheme",
+            "patterns": [
+                "Describe the Free Medical Camps Scheme",
+                "What is the eligibility criteria for the Free Medical Camps Scheme?"
+            ],
+            "responses": [
+                "The Free Medical Camps Scheme conducts free medical camps to provide healthcare services to underprivileged communities. Eligibility criteria include: No income criteria, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "employment_training_scheme",
+            "patterns": [
+                "Describe the Employment Training Scheme",
+                "What is the eligibility criteria for the Employment Training Scheme?"
+            ],
+            "responses": [
+                "The Employment Training Scheme provides training programs to enhance employability skills. Eligibility criteria include: Age: Unemployed youth within a certain age range, Educational: Minimum qualification criteria, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "apprenticeship_scheme",
+            "patterns": [
+                "Describe the Apprenticeship Scheme",
+                "What is the eligibility criteria for the Apprenticeship Scheme?"
+            ],
+            "responses": [
+                "The Apprenticeship Scheme offers apprenticeship opportunities to youth for skill development. Eligibility criteria include: Age: Youth within a certain age range, Educational: Minimum qualification criteria, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "startup_funding_scheme",
+            "patterns": [
+                "Describe the Start-up Funding Scheme",
+                "What is the eligibility criteria for the Start-up Funding Scheme?"
+            ],
+            "responses": [
+                "The Start-up Funding Scheme provides financial assistance to start-ups to promote entrepreneurship. Eligibility criteria include: Employment Status: Entrepreneur or founding member of a start-up, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "special_education_schemes",
+            "patterns": [
+                "Describe special education schemes",
+                "Show special education schemes",
+                "What are the special education schemes available?"
+            ],
+            "responses": [
+                "Here are some special education schemes available in Tamil Nadu:"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "special_scholarship_scheme_disabilities",
+            "patterns": [
+                "Describe the Special Scholarship Scheme for Disabilities",
+                "What is the eligibility criteria for the Special Scholarship Scheme for Disabilities?"
+            ],
+            "responses": [
+                "The Special Scholarship Scheme for Disabilities offers financial assistance to students with disabilities for higher education. Eligibility criteria include: Disability: Certified disability status, Age: Varies based on education level, Educational: Enrolled in a recognized institution, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "inclusive_education_scheme",
+            "patterns": [
+                "Describe the Inclusive Education Scheme",
+                "What is the eligibility criteria for the Inclusive Education Scheme?"
+            ],
+            "responses": [
+                "The Inclusive Education Scheme aims to provide equal educational opportunities for children with special needs. Eligibility criteria include: Disability: Certified disability status, Age: School-going children, Educational: Enrolled in a government or government-aided school, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "special_training_scheme_autistic_children",
+            "patterns": [
+                "Describe the Special Training Scheme for Autistic Children",
+                "What is the eligibility criteria for the Special Training Scheme for Autistic Children?"
+            ],
+            "responses": [
+                "The Special Training Scheme for Autistic Children offers specialized training and support for children with autism. Eligibility criteria include: Diagnosis: Certified diagnosis of autism spectrum disorder, Age: Children with autism, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "scholarship_scheme_minorities",
+            "patterns": [
+                "Describe the Scholarship Scheme for Minorities",
+                "What is the eligibility criteria for the Scholarship Scheme for Minorities?"
+            ],
+            "responses": [
+                "The Scholarship Scheme for Minorities provides financial assistance to minority community students for higher education. Eligibility criteria include: Income Level: Below a certain threshold specified for minorities, Age: Varies based on education level, Educational: Enrolled in a recognized institution, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "free_laptop_scheme",
+            "patterns": [
+                "Describe the Free Laptop Scheme",
+                "What is the eligibility criteria for the Free Laptop Scheme?"
+            ],
+            "responses": [
+                "The Free Laptop Scheme provides free laptops to students to aid in their education. Eligibility criteria include: Income Level: Below a certain threshold, Age: Typically for students in higher education, Educational: Enrolled in a recognized institution, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "mid_day_meal_scheme",
+            "patterns": [
+                "Describe the Mid-Day Meal Scheme",
+                "What is the eligibility criteria for the Mid-Day Meal Scheme?"
+            ],
+            "responses": [
+                "The Mid-Day Meal Scheme provides free nutritious meals to school children. Eligibility criteria include: Age: School-going children, Educational: Enrolled in a government or government-aided school, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "scholarship_scheme_sc_st_students",
+            "patterns": [
+                "Describe the Scholarship Scheme for SC/ST Students",
+                "What is the eligibility criteria for the Scholarship Scheme for SC/ST Students?"
+            ],
+            "responses": [
+                "The Scholarship Scheme for SC/ST Students offers financial assistance to students belonging to Scheduled Castes (SC) and Scheduled Tribes (ST) for higher education. Eligibility criteria include: Income Level: Below a certain threshold specified for SC/ST, Age: Varies based on education level, Educational: Enrolled in a recognized institution, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "textbook_scheme",
+            "patterns": [
+                "Describe the Textbook Scheme",
+                "What is the eligibility criteria for the Textbook Scheme?"
+            ],
+            "responses": [
+                "The Textbook Scheme provides free textbooks to school students. Eligibility criteria include: Age: School-going children, Educational: Enrolled in a government or government-aided school, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "girl_child_welfare_scheme",
+            "patterns": [
+                "Describe the Girl Child Welfare Scheme",
+                "What is the eligibility criteria for the Girl Child Welfare Scheme?"
+            ],
+            "responses": [
+                "The Girl Child Welfare Scheme aims to support the welfare and development of girl children through various initiatives such as educational assistance, healthcare support, and empowerment programs. Eligibility criteria may include: Gender: Girl child, Age: Varies based on specific programs, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "single_women_support_scheme",
+            "patterns": [
+                "Describe the Single Women Support Scheme",
+                "What is the eligibility criteria for the Single Women Support Scheme?"
+            ],
+            "responses": [
+                "The Single Women Support Scheme provides financial assistance, counseling, and other support services to single women for their socio-economic empowerment. Eligibility criteria may include: Marital Status: Single women (divorced, separated, or unmarried), Income Level: Below a certain threshold, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "women_healthcare_scheme",
+            "patterns": [
+                "Describe the Women Healthcare Scheme",
+                "What is the eligibility criteria for the Women Healthcare Scheme?"
+            ],
+            "responses": [
+                "The Women Healthcare Scheme focuses on providing comprehensive healthcare services to women, including maternal care, reproductive health services, and awareness programs. Eligibility criteria may include: Gender: Women, Age: Adult women, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "women_employment_quota_scheme",
+            "patterns": [
+                "Describe the Women Employment Quota Scheme",
+                "What is the eligibility criteria for the Women Employment Quota Scheme?"
+            ],
+            "responses": [
+                "The Women Employment Quota Scheme reserves a certain percentage of employment opportunities in government and private sectors for women to promote gender equality in the workforce. Eligibility criteria may vary depending on the specific job openings and sector requirements."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "women_legal_aid_scheme",
+            "patterns": [
+                "Describe the Women Legal Aid Scheme",
+                "What is the eligibility criteria for the Women Legal Aid Scheme?"
+            ],
+            "responses": [
+                "The Women Legal Aid Scheme provides legal assistance and support to women who are victims of domestic violence, harassment, discrimination, or other injustices. Eligibility criteria may include: Gender: Women, Legal Need: Facing legal issues related to women's rights or safety, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "self_employment_scheme_women",
+            "patterns": [
+                "Describe the Self-Employment Scheme for Women",
+                "What is the eligibility criteria for the Self-Employment Scheme for Women?"
+            ],
+            "responses": [
+                "The Self-Employment Scheme for Women facilitates financial assistance and training for women entrepreneurs. Eligibility criteria include: Gender: Women, Employment Status: Seeking self-employment opportunities, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "maternity_benefit_scheme",
+            "patterns": [
+                "Describe the Maternity Benefit Scheme",
+                "What is the eligibility criteria for the Maternity Benefit Scheme?"
+            ],
+            "responses": [
+                "The Maternity Benefit Scheme provides financial assistance to pregnant women for maternity expenses. Eligibility criteria include: Income Level: Below a certain threshold, Age: Pregnant women, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sanitary_napkin_scheme",
+            "patterns": [
+                "Describe the Sanitary Napkin Scheme",
+                "What is the eligibility criteria for the Sanitary Napkin Scheme?"
+            ],
+            "responses": [
+                "The Sanitary Napkin Scheme distributes free or subsidized sanitary napkins to women and girls. Eligibility criteria include: Age: Women and girls of menstruating age, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "widow_pension_scheme",
+            "patterns": [
+                "Describe the Widow Pension Scheme",
+                "What is the eligibility criteria for the Widow Pension Scheme?"
+            ],
+            "responses": [
+                "The Widow Pension Scheme offers financial assistance to widows. Eligibility criteria include: Marital Status: Widowed women, Income Level: Below a certain threshold, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "women_entrepreneurship_scheme",
+            "patterns": [
+                "Describe the Women Entrepreneurship Scheme",
+                "What is the eligibility criteria for the Women Entrepreneurship Scheme?"
+            ],
+            "responses": [
+                "The Women Entrepreneurship Scheme provides support and assistance specifically for women who want to start their own businesses. Eligibility criteria include: Gender: Women, Business Plan: Proposal for a viable business venture, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "women_empowerment_training_scheme",
+            "patterns": [
+                "Describe the Women Empowerment Training Scheme",
+                "What is the eligibility criteria for the Women Empowerment Training Scheme?"
+            ],
+            "responses": [
+                "The Women Empowerment Training Scheme offers various skill development and training programs tailored to empower women economically and socially. Eligibility criteria include: Gender: Women, Educational: Varies based on the type of training, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "women_welfare_scheme",
+            "patterns": [
+                "Describe the Women Welfare Scheme",
+                "What is the eligibility criteria for the Women Welfare Scheme?"
+            ],
+            "responses": [
+                "The Women Welfare Scheme aims to improve the overall well-being of women by providing various support services and resources. Eligibility criteria may vary depending on the specific services offered under the scheme."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "women_education_scheme",
+            "patterns": [
+                "Describe the Women Education Scheme",
+                "What is the eligibility criteria for the Women Education Scheme?"
+            ],
+            "responses": [
+                "The Women Education Scheme focuses on promoting education among women by offering scholarships, grants, or other educational support. Eligibility criteria may vary based on the type and level of education being supported."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "agriculture_schemes",
+            "patterns": [
+                "Describe agriculture schemes",
+                "Show agriculture schemes",
+                "What are the agriculture schemes available?"
+            ],
+            "responses": [
+                "Here are the agriculture schemes available in Tamil Nadu:"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "crop_insurance_scheme",
+            "patterns": [
+                "Describe the Crop Insurance Scheme",
+                "What is the eligibility criteria for the Crop Insurance Scheme?"
+            ],
+            "responses": [
+                "The Crop Insurance Scheme provides insurance coverage to farmers against crop loss due to natural calamities. Eligibility criteria include: Employment Status: Farmer, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "farm_machinery_subsidy_scheme",
+            "patterns": [
+                "Describe the Farm Machinery Subsidy Scheme",
+                "What is the eligibility criteria for the Farm Machinery Subsidy Scheme?"
+            ],
+            "responses": [
+                "The Farm Machinery Subsidy Scheme offers subsidies on agricultural machinery to promote mechanization. Eligibility criteria include: Employment Status: Farmer, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "soil_testing_scheme",
+            "patterns": [
+                "Describe the Soil Testing Scheme",
+                "What is the eligibility criteria for the Soil Testing Scheme?"
+            ],
+            "responses": [
+                "The Soil Testing Scheme provides soil testing services to farmers to assess soil health. Eligibility criteria include: Employment Status: Farmer, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "drip_irrigation_subsidy_scheme",
+            "patterns": [
+                "Describe the Drip Irrigation Subsidy Scheme",
+                "What is the eligibility criteria for the Drip Irrigation Subsidy Scheme?"
+            ],
+            "responses": [
+                "The Drip Irrigation Subsidy Scheme offers subsidies on drip irrigation systems to conserve water in agriculture. Eligibility criteria include: Employment Status: Farmer, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "organic_farming_scheme",
+            "patterns": [
+                "Describe the Organic Farming Scheme",
+                "What is the eligibility criteria for the Organic Farming Scheme?"
+            ],
+            "responses": [
+                "The Organic Farming Scheme promotes organic farming practices among farmers. Eligibility criteria include: Employment Status: Farmer, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "farm_loan_subsidy_scheme",
+            "patterns": [
+                "Describe the Farm Loan Subsidy Scheme",
+                "What is the eligibility criteria for the Farm Loan Subsidy Scheme?"
+            ],
+            "responses": [
+                "The Farm Loan Subsidy Scheme offers subsidies on agricultural loans to farmers. Eligibility criteria include: Employment Status: Farmer, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "pest_management_scheme",
+            "patterns": [
+                "Describe the Pest Management Scheme",
+                "What is the eligibility criteria for the Pest Management Scheme?"
+            ],
+            "responses": [
+                "The Pest Management Scheme provides assistance to farmers for pest control measures. Eligibility criteria include: Employment Status: Farmer, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "subsidized_seed_distribution_scheme",
+            "patterns": [
+                "Describe the Subsidized Seed Distribution Scheme",
+                "What is the eligibility criteria for the Subsidized Seed Distribution Scheme?"
+            ],
+            "responses": [
+                "The Subsidized Seed Distribution Scheme offers seeds to farmers at subsidized rates. Eligibility criteria include: Employment Status: Farmer, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "crop_diversification_scheme",
+            "patterns": [
+                "Describe the Crop Diversification Scheme",
+                "What is the eligibility criteria for the Crop Diversification Scheme?"
+            ],
+            "responses": [
+                "The Crop Diversification Scheme promotes the cultivation of diverse crops among farmers. Eligibility criteria include: Employment Status: Farmer, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "agriculture_extension_services_scheme",
+            "patterns": [
+                "Describe the Agriculture Extension Services Scheme",
+                "What is the eligibility criteria for the Agriculture Extension Services Scheme?"
+            ],
+            "responses": [
+                "The Agriculture Extension Services Scheme provides advisory and extension services to farmers for better agricultural practices. Eligibility criteria include: Employment Status: Farmer, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "agriculture_credit_scheme",
+            "patterns": [
+                "Describe the Agriculture Credit Scheme",
+                "What is the eligibility criteria for the Agriculture Credit Scheme?"
+            ],
+            "responses": [
+                "The Agriculture Credit Scheme provides credit facilities to farmers for agricultural activities. Eligibility criteria include: Employment Status: Farmer, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "irrigation_infrastructure_development_scheme",
+            "patterns": [
+                "Describe the Irrigation Infrastructure Development Scheme",
+                "What is the eligibility criteria for the Irrigation Infrastructure Development Scheme?"
+            ],
+            "responses": [
+                "The Irrigation Infrastructure Development Scheme aims to enhance irrigation facilities for agricultural lands. Eligibility criteria include: Employment Status: Farmer, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "farmers_market_scheme",
+            "patterns": [
+                "Describe the Farmers' Market Scheme",
+                "What is the eligibility criteria for the Farmers' Market Scheme?"
+            ],
+            "responses": [
+                "The Farmers' Market Scheme facilitates direct selling of agricultural produce from farmers to consumers. Eligibility criteria include: Employment Status: Farmer, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "agriculture_extension_program",
+            "patterns": [
+                "Describe the Agriculture Extension Program",
+                "What is the eligibility criteria for the Agriculture Extension Program?"
+            ],
+            "responses": [
+                "The Agriculture Extension Program provides education and training to farmers on modern agricultural practices. Eligibility criteria include: Employment Status: Farmer, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "crop_diversification_scheme",
+            "patterns": [
+                "Describe the Crop Diversification Scheme",
+                "What is the eligibility criteria for the Crop Diversification Scheme?"
+            ],
+            "responses": [
+                "The Crop Diversification Scheme encourages farmers to diversify their crops for sustainable agriculture. Eligibility criteria include: Employment Status: Farmer, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "micro_irrigation_scheme",
+            "patterns": [
+                "Describe the Micro Irrigation Scheme",
+                "What is the eligibility criteria for the Micro Irrigation Scheme?"
+            ],
+            "responses": [
+                "The Micro Irrigation Scheme promotes the adoption of micro-irrigation techniques among farmers. Eligibility criteria include: Employment Status: Farmer, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "agro_processing_unit_subsidy_scheme",
+            "patterns": [
+                "Describe the Agro-Processing Unit Subsidy Scheme",
+                "What is the eligibility criteria for the Agro-Processing Unit Subsidy Scheme?"
+            ],
+            "responses": [
+                "The Agro-Processing Unit Subsidy Scheme offers subsidies to establish agro-processing units. Eligibility criteria include: Employment Status: Farmer or entrepreneur, Residency Status: Resident of Tamil Nadu."
+            ],
+            "context_set": ""
+        }
+    ],
+    "responses": [],
+    "context": []
+}
